@@ -158,11 +158,8 @@ describe('esPrimo(num)', function() {
   it('should return true if num is prime', function() {
     expect(esPrimo(7)).toBe(true);
     expect(esPrimo(97)).toBe(true);
-    expect(esPrimo(11)).toBe(true);
   });
   it('should return false if num is not prime', function() {
-    expect(esPrimo(9)).toBe(false);
-    expect(esPrimo(4)).toBe(false);
     expect(esPrimo(10)).toBe(false);
     expect(esPrimo(100)).toBe(false);
     expect(esPrimo(0)).toBe(false);
@@ -181,7 +178,7 @@ describe ('esVerdadero(valor)', function() {
 
 describe ('tablaDelSeis()', function() {
   it('should return multiplication table of 6', function() {
-    expect(tablaDelSeis()).toEqual([0 , 6, 12, 18, 24, 30, 36, 42, 48, 54, 60]);
+    expect(tablaDelSeis()).toEqual([0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60]);
   });
 });
 
